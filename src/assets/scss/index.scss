@@ -1,0 +1,73 @@
+@import "./vendors/normalize.scss";
+
+@import "./fonts";
+@import "./variables";
+@import "./functions";
+@import "./mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: vw(1110);
+  margin: 0 auto;
+}
+.section {
+  padding: vw(90) 0 vw(30);
+}
+.title {
+  @include font(vw(30), 400);
+  color: $text-blue;
+  position: relative;
+  span:first-child {
+    font-weight: 700;
+  }
+  span:last-child {
+    @include font(vw(90), 800);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #002881;
+    opacity: 0.03;
+    white-space: nowrap;
+  }
+}
+
+.col-4 {
+  width: 33.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,13 @@
+@mixin font($size, $weight, $lineHeight: 1.5) {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $lineHeight;
+}
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

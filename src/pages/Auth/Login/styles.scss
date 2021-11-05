@@ -1,0 +1,79 @@
+@import "@styles/index.scss";
+
+.login {
+  .col-8 {
+    padding-left: vw(90);
+  }
+  h1 {
+    @include font(vw(42), 400);
+    color: $text-blue;
+    text-align: center;
+  }
+  p {
+    @include font(vw(13), 700);
+    color: $text-blue;
+    text-align: center;
+    margin: vw(18) 0;
+  }
+  label {
+    @include font(vw(12), 700);
+    color: $text-blue-60;
+    margin-bottom: vw(5);
+    padding-left: vw(25);
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: #adb8cc;
+    }
+  }
+  form {
+    div {
+      display: flex;
+      align-items: center;
+      margin-top: vw(5);
+      background: $bg-white;
+      border: 2px solid $bg-light-gray;
+      box-shadow: 0 2px vw(5) rgba(54, 61, 77, 0.03);
+      border-radius: vw(30);
+      padding: vw(15) vw(25);
+      margin-bottom: vw(20);
+      input {
+        @include font(vw(12), 700);
+        width: 100%;
+        padding-right: vw(10);
+        border: none;
+        outline: none;
+        color: #7d8fb3;
+      }
+    }
+    button {
+      @include font(vw(12), 800);
+      width: 100%;
+      padding: vw(15) 0;
+      background: #8833ff;
+      box-shadow: 0px 10px 30px rgba(136, 51, 255, 0.1);
+      border-radius: vw(30);
+      color: $text-white;
+      outline: none;
+      cursor: pointer;
+      border: 2px solid #8833ff;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #8833ff;
+      }
+    }
+  }
+}
+.auth {
+  &__have-account {
+    @include font(vw(12), 700);
+    margin-top: vw(5);
+    display: block;
+    text-align: right;
+    color: #adb8cc;
+    a {
+      color: #8833ff;
+    }
+  }
+}

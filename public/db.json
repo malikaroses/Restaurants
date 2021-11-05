@@ -1,0 +1,180 @@
+{
+  "restaraunts": [
+    {
+      "id": 0,
+      "name": "Burger in the Center",
+      "price": 5,
+      "cookTime": 40,
+      "grade": 4.6,
+      "filters": [
+        "Burgers",
+        "French fries",
+        "Sandwiches",
+        "Vegetables",
+        "Kids Food"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1ZU3ZLI_mwWamZQAuVIxm5jngc-wcwKHL",
+      "isliked": true
+    },
+    {
+      "id": 1,
+      "name": "Planet of Stacks and Meats",
+      "price": 5,
+      "cookTime": 50,
+      "grade": 4.6,
+      "filters": [
+        "Steaks",
+        "Meet",
+        "Vegetables",
+        "Spicy",
+        "French fries"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1JMjRA1b6JcUPqK_-j8nti2aaBUjfK-42",
+      "isliked": false
+    },
+    {
+      "id": 2,
+      "name": "Delicious and Fresh Sushi",
+      "price": 5,
+      "cookTime": 60,
+      "grade": 4.6,
+      "filters": [
+        "Sushi",
+        "Fish",
+        "Vegetables",
+        "Spicy",
+        "Kids Food"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1dK9fb-pXN8O4gnxswKs5Plu6FEqHNaKf",
+      "isliked": true
+    },
+    {
+      "id": 3,
+      "name": "Pizza in the Center",
+      "price": 5,
+      "cookTime": 35,
+      "grade": 4.6,
+      "filters": [
+        "Pizza",
+        "Italian",
+        "Vegetables",
+        "Meet",
+        "Kids Food"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1No70O0R9TqRWV2g_ZZafYs3Nujb2RSpO",
+      "isliked": false
+    },
+    {
+      "id": 4,
+      "name": "Italian Pasta",
+      "price": 5,
+      "cookTime": 45,
+      "grade": 4.6,
+      "filters": [
+        "Italian",
+        "Kids Food",
+        "Vegetables",
+        "Meet",
+        "Spicy"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1DP2cSjeVIZcImV1qq7FkyOlMJg_rJHfg",
+      "isliked": false
+    },
+    {
+      "id": 5,
+      "name": "French fries in the Center",
+      "price": 5,
+      "cookTime": 70,
+      "grade": 4.6,
+      "filters": [
+        "French fries",
+        "Kids Food",
+        "Vegetables",
+        "Spicy",
+        "Italian"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1cI_hh9OziDlV3I9DH1XZY48wvsY9Qb8k",
+      "isliked": false
+    },
+    {
+      "id": 6,
+      "name": "Eclairs and Muffins",
+      "price": 5,
+      "cookTime": 60,
+      "grade": 4.6,
+      "filters": [
+        "Sweet",
+        "Kids Food",
+        "Vegetables",
+        "Eclairs",
+        "Sandwiches"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1sFObkVGpzXPwDTpNdyxVJAgmegzTvExp",
+      "isliked": false
+    },
+    {
+      "id": 7,
+      "name": "Planet of Stacks and Meats",
+      "price": 5,
+      "cookTime": 40,
+      "grade": 4.6,
+      "filters": [
+        "Steaks",
+        "Meet",
+        "Vegetables",
+        "Spicy",
+        "French fries"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1eJ4uYaHBB4v2XIHewf9tb3aGRDZMtsqu",
+      "isliked": false
+    },
+    {
+      "id": 8,
+      "name": "Burger in the Center",
+      "price": 5,
+      "cookTime": 50,
+      "grade": 4.6,
+      "filters": [
+        "Burgers",
+        "French fries",
+        "Sandwiches",
+        "Vegetables",
+        "Kids Food"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1660T9dByDWiGExUl7WyCMgzh3Q-NNdSc",
+      "isliked": false
+    },
+    {
+      "id": 9,
+      "name": "Planet of Stacks and Meats",
+      "price": 5,
+      "cookTime": 55,
+      "grade": 4.6,
+      "filters": [
+        "Steaks",
+        "Meet",
+        "Vegetables",
+        "Spicy",
+        "French fries"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1qvIAGzDkuotmratZA4lDV0wjLTXIpN6v",
+      "isliked": false
+    },
+    {
+      "id": 10,
+      "name": "Delicious and Fresh Sushi",
+      "price": 5,
+      "cookTime": 60,
+      "grade": 4.6,
+      "filters": [
+        "Sushi",
+        "Fish",
+        "Vegetables",
+        "Spicy",
+        "Kids Food"
+      ],
+      "image": "https://drive.google.com/uc?export=view&id=1ZU3ZLI_mwWamZQAuVIxm5jngc-wcwKHL",
+      "isliked": false
+    }
+  ]
+}

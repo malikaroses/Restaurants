@@ -1,0 +1,31 @@
+@import "@styles/index.scss";
+
+.home {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid $bg-light-gray;
+    padding-bottom: vw(40);
+  }
+  &__newsletter {
+    @include font(vw(14), 700);
+    display: flex;
+    align-items: center;
+    color: $text-blue;
+    img {
+      width: vw(20);
+      height: vw(16);
+      margin-right: vw(30);
+    }
+  }
+  &__content {
+    padding-top: vw(30);
+    padding-bottom: vw(40);
+  }
+  &__restaraunts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: vw(30);
+    padding: vw(35) 0;
+  }
+}

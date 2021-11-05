@@ -1,0 +1,16 @@
+@import "@styles/index.scss";
+
+.create-restaraunt {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    max-width: vw(500);
+    margin: 0 auto;
+  }
+  label {
+    margin-bottom: vw(5);
+  }
+  input {
+    margin-bottom: vw(25);
+  }
+}

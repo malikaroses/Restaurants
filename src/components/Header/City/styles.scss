@@ -1,0 +1,33 @@
+@import "@styles/index.scss";
+
+.header-city {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 vw(36);
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: vw(90);
+    width: vw(2);
+    min-width: 2px;
+    background-color: $bg-light-gray;
+    transform: translateY(-37%);
+  }
+  img {
+    margin-right: vw(23);
+    width: vw(14);
+    height: vw(20);
+  }
+  span {
+    @include font(vw(13), 700);
+    color: $text-blue;
+    width: vw(110);
+  }
+  svg {
+    width: vw(12);
+    height: vw(7);
+  }
+}

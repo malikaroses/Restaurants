@@ -1,0 +1,43 @@
+@import "@styles/index.scss";
+
+.header-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 vw(34);
+  margin-left: vw(120);
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    height: vw(100);
+    width: vw(2);
+    min-width: 2px;
+    background-color: $bg-light-gray;
+    transform: translateY(-35%);
+  }
+  &::before {
+    left: 0;
+    top: 0;
+  }
+  &::after {
+    right: 0;
+    top: 0;
+  }
+  img {
+    width: vw(18);
+    height: vw(18);
+    margin-right: vw(20);
+  }
+  input {
+    @include font(vw(13), 700);
+    color: $text-blue;
+    border: none;
+    width: vw(110);
+    outline: none;
+    &::placeholder {
+      @include font(vw(13), 700);
+      color: $text-blue;
+    }
+  }
+}

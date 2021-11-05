@@ -1,0 +1,132 @@
+@import "@styles/index.scss";
+
+.restaraunt-item {
+  width: vw(255);
+  max-width: 25%;
+  background: $bg-white;
+  box-shadow: 0 2px vw(5) rgba(54, 61, 77, 0.05);
+  border-radius: vw(5);
+  overflow: hidden;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: vw(20);
+    height: vw(190);
+    z-index: 1;
+  }
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  &__cook-time {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: vw(30);
+    padding: vw(10) vw(20);
+    max-height: vw(40);
+    span {
+      @include font(vw(12), 700);
+      margin-left: vw(10);
+      color: $text-white;
+    }
+    img {
+      width: vw(16);
+      height: vw(16);
+    }
+  }
+  &__like {
+    @include flex;
+    position: relative;
+    width: vw(40);
+    height: vw(40);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: scale(0);
+      transition: 0.3s linear;
+      width: 100%;
+      height: 100%;
+      background: $bg-red;
+      z-index: -1;
+      border-radius: 50%;
+    }
+    &.liked {
+      &::before {
+        transform: scale(1.1);
+      }
+    }
+    img {
+      width: vw(17);
+      height: vw(15);
+    }
+  }
+  &__name {
+    @include font(vw(14), 700);
+    color: $text-blue;
+    margin-bottom: vw(10);
+  }
+  &__details {
+    padding: vw(20);
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__rating {
+    margin-right: vw(18);
+    img {
+      width: vw(12);
+      height: vw(12);
+    }
+    span {
+      @include font(vw(12), 700);
+      margin-left: vw(14);
+      color: $text-light-blue;
+    }
+  }
+  &__order {
+    img {
+      width: vw(14);
+      height: vw(14);
+    }
+    span {
+      @include font(vw(12), 700);
+      margin-left: vw(14);
+      color: $text-light-blue;
+    }
+  }
+  &__filters {
+    display: flex;
+    position: relative;
+    border-top: 2px solid $bg-light-gray;
+    padding: vw(20);
+    img {
+      position: absolute;
+      right: vw(20);
+      top: 50%;
+      transform: translateY(-50%);
+      min-width: 12px;
+      min-height: 4px;
+      width: vw(12);
+      height: vw(4);
+    }
+    span {
+      @include font(vw(12), 700);
+      color: $text-light-blue;
+      margin-right: vw(10);
+    }
+  }
+}

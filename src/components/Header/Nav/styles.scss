@@ -1,0 +1,15 @@
+@import "@styles/index.scss";
+
+.nav {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    @include font(vw(13), 700);
+    color: $text-blue;
+    margin-right: vw(40);
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

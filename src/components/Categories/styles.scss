@@ -1,0 +1,42 @@
+@import "@styles/index.scss";
+
+.categories {
+  display: flex;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: vw(15);
+    margin-right: vw(15);
+    cursor: pointer;
+    &.active {
+      background: $bg-white;
+      box-shadow: 0px 2px 5px rgba(54, 61, 77, 0.03);
+      border-radius: vw(5);
+    }
+    img {
+      margin-right: vw(15);
+      min-width: vw(20);
+      max-width: vw(30);
+    }
+    span {
+      @include font(vw(13), 700);
+      color: $text-blue;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span {
+      @include font(vw(13), 700);
+      color: $text-blue;
+      margin-left: vw(25);
+    }
+  }
+}

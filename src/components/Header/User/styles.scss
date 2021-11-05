@@ -1,0 +1,24 @@
+@import "@styles/index.scss";
+
+.header-user {
+  padding: 0 vw(35);
+  @include flex(space-between);
+  img {
+    margin-right: vw(20);
+    width: vw(20);
+    height: vw(20);
+  }
+  span {
+    @include font(vw(13), 700);
+    color: $text-blue;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    width: vw(240);
+  }
+  svg {
+    width: vw(20);
+    height: vw(20);
+  }
+}
